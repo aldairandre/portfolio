@@ -7,7 +7,7 @@ const Index = () => {
 
   return (
 
-    <header className='relative' suppressHydrationWarning>
+    <header className='relative'>
       <Nav/>
     </header>
 

@@ -14,7 +14,7 @@ const UlLinks = () => {
   const { isOn, changeMenu } = useMenu()
   const { language } = useLanguages()
 
-  return <ul className={`${isOn ? 'flex' : 'hidden'} px-4 first:li: lg:flex flex-col items-center text-white w-full lg:items-center  lg:space-x-20 lg:flex-row justify-center absolute top-14 z-10 dark:bg-gray-300 bg-purple-500 `}>
+  return <ul className={`${isOn ? 'flex' : 'hidden'} px-4 first:li: lg:flex flex-col items-center w-full lg:items-center lg:space-x-20 lg:flex-row justify-center max-lg:absolute max-lg:top-14 max-lg:z-10 dark:bg-gray-300 bg-white-100 last:border-none`}>
     {language === 'en' ?
       (categories.map(([title, url], index) => (
         <li key={index} className='flex justify-between max-lg:w-full py-[13px] border-b-[1px] lg:border-b-0'

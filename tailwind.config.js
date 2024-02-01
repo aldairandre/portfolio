@@ -31,6 +31,9 @@ module.exports = {
         100 : '#EEEEEE',
         200 : '#FDEBED',
         300 : '#FC2831'
+      },
+      'white' : {
+        100 : '#ffffff'
       }
     },
   },

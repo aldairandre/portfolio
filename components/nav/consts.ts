@@ -11,7 +11,7 @@ const categorias = [
   ['Sobre', '/about'],
   ['Projetos', '/projects'],
   ['Skills', '/skills'],
-  ['Servicos', '/services'],
+  ['Serviços', '/services'],
 ]
 
 export {

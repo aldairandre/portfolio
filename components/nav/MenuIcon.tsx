@@ -35,7 +35,7 @@ const MenuIcon = () => {
             }
             }
           />
-        ) : (<Bars3Icon className='w-6 h-6 stroke-gray-300 lg:hidden' onClick={() => changeMenu(isOn)
+        ) : (<Bars3Icon className='w-6 h-6 lg:hidden' onClick={() => changeMenu(isOn)
         } />)
       }
     </div>
